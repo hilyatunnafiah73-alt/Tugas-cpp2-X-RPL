@@ -12,11 +12,11 @@ int main() {
             cout<<menu[i]<<endl;
             cout<<"harga ";
             cout<<harga[i]<<endl;
-            cout<<" berapa porsi ";
+            cout<<"berapa porsi ";
             cin>>porsi[i];
             total[i]=porsi[i]*harga[i];
                 cout<<total[i]<<endl;
-            cout<<"_____" <<endl;
+            cout<<"____________" <<endl;
         }
     system("pause");
     return 0;
